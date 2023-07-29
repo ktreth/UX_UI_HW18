@@ -118,6 +118,7 @@ footer {
     background-color: #404040;
     width: 100%;
     bottom: 0px;
+    padding-bottom: 1%;
     text-align: center;
     color: white;
 }
@@ -198,8 +199,8 @@ html, body {
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     margin-left: 20%;
     margin-right: 20%;
-    row-gap: 20%;
-    padding-bottom: 20%;
+    row-gap: 15%;
+    padding-bottom: 15%;
 }
 
 .workTitle {
@@ -230,5 +231,5 @@ h2 {
     line-height: 25px;
     font-size: 18px;
     letter-spacing: 4%;
+    object-fit: scale-down;
 }
-
