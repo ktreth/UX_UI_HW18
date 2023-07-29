@@ -29,7 +29,7 @@ body {
     float: left;
   }
 
-  name {
+name {
     vertical-align: top;
     color: white;
     font-size: 20px;
@@ -60,15 +60,14 @@ a {
 /*Hero style*/
 
 .hero {
-    display: flexbox;
-    grid-template-columns: 50% 50%;
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     height: 600px;
-    width: 40%;
+    width: 35%;
     margin: auto;
 }
 .heroimage {
-    float: right;
     padding-top: 5%;
 }
 
@@ -88,9 +87,10 @@ h1 {
     font-size: 32px;
     font-family: 'Montserrat';
     font-weight: normal;
+    
 }
 
-.herobutton {
+button {
     background-color: #DD9F96;
     font-size: 20px;
     font-family: 'Montserrat';
@@ -166,19 +166,27 @@ html, body {
 
 #mySkills {
     background-color: #9EC2BC;
+    padding-top: 1%;
+}
+
+.skillsTitle {
+    text-align: center;
 }
 
 .flexContainer {
     display: flex;
     justify-content: space-around;
     padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .skillCard {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
     text-align: center;
     align-items: center;
 }
@@ -188,17 +196,39 @@ html, body {
 #myWork-Grid {
     display: grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     row-gap: 20%;
     padding-bottom: 20%;
-    padding-top: 10%;
+}
+
+.workTitle {
+    text-align: center;
 }
 
 .project-card {
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .project-details {
-    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
     
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'roboto slab';
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 4%;
+}
+
