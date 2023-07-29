@@ -64,7 +64,7 @@ a {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 600px;
-    width: 35%;
+    width: 50%;
     margin: auto;
 }
 .heroimage {
@@ -179,8 +179,6 @@ html, body {
     justify-content: space-around;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .skillCard {
@@ -190,6 +188,7 @@ html, body {
     width: 20%;
     text-align: center;
     align-items: center;
+    height: fit-content; 
 }
 
 /*My Work style*/
@@ -199,8 +198,7 @@ html, body {
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     margin-left: 20%;
     margin-right: 20%;
-    row-gap: 15%;
-    padding-bottom: 15%;
+    padding-bottom: 1%;
 }
 
 .workTitle {
@@ -216,6 +214,7 @@ html, body {
     margin-left: 5%;
     margin-right: 5%;
     width: 30%;
+    padding-block: 4%;
     
 }
 
