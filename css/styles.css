@@ -209,6 +209,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 1%;
 }
 .project-details {
     margin-left: 5%;
