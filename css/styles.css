@@ -234,12 +234,12 @@ h2 {
     object-fit: scale-down;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .flexContainer {
         display: flex;
         flex-direction: column;
         padding-top: 5%;
-        width: 100%;
         padding-bottom: 5%;
     }
 }
+
