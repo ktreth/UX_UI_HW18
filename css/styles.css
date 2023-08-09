@@ -234,7 +234,7 @@ h2 {
     object-fit: scale-down;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .flexContainer {
         display: flex;
         flex-direction: column;
